@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Arcade games in Scratch</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/navbar.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Arcade games in Scratch</h1>
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/7-CS-ScratchArcade">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+    </ul>
+  </div>
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1">Missile Command</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-sec-1-1" class="outline-3 learn">
+<h3 id="sec-1-1">Learn It</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Before you were born, there were very few people who had computers in their homes. If you wanted to play a computer game, you did not have a games console to play on, so you played arcade games on special machines that could only play one type of game.
+</li>
+<li>The games on arcade machines were very simple, but still exciting to play. This is where Pacman, Mario and the Street Fighter games all began.
+</li>
+<li>The game Missile Command, began on these arcade machines, and in this project you are going to create your own version of it. The idea will be to have Rocks flying towards the Earth, and the player destroying them by firing missiles.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3 code">
+<h3 id="sec-1-2">Code It</h3>
+<div class="outline-text-3" id="text-1-2">
+<ol class="org-ol">
+<li>Create a new Scratch project.
+</li>
+<li>The first thing you will need for you game is a new backdrop.  You can find the backdrop options in the bottom left of the screen.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/figure01.png" alt="figure01.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="3">Choose the Stars backdrop for this project.
+</li>
+<li>Delete the Cat Sprite and fetch a new sprite for your Base. The Earth Sprite is a good choice. Make sure you call it <code>Base</code>
+</li>
+<li>Position it, so that it sits at the bottom of the Stage.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/figure03.png" alt="figure03.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="6">Now we need some asteroids that are flying towards the Earth. Import the Rocks sprite, and position it at right at the top of the screen, so you can barely see it.
+</li>
+<li>We can start sending the asteroids flying towards the Earth with a few simple scripts.
+</li>
+<li>Because we want lots of asteroids, we need to create copies of the Rocks sprite. In Scratch, these copies are called clones. When the game starts, we want to create a new copy of the Rocks sprite every two seconds.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/figure10.png" alt="figure10.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="9">If you click on the  you should see the rocks being created and flying off the Stage.
+</li>
+<li>Now we need to aim the rocks at the Earth. It would be a little unfair if all the huge rocks were flying towards the Earth, so we shall use a bit of randomness to change their starting position, their size and their direction.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/figure18.png" alt="figure18.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="11">Now click the green flag to see what happens.
+</li>
+<li>You'll notice that the original rock is always visible, so we need to hide it.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/figure19.png" alt="figure19.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="13">You might notice that the rocks hang around at the bottom of the screen. We don’t really want this. We can destroy the clones if their y position is less that -180.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/figure22.png" alt="figure22.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3 code">
+<h3 id="sec-1-3">Code It</h3>
+<div class="outline-text-3" id="text-1-3">
+<ol class="org-ol">
+<li>Next we need to enable to player to destroy the rocks.
+</li>
+<li>We're going to need a few more scripts and some variable to accomplish this.
+</li>
+<li>Firstly create a couple of new variables and call them <code>xTarget</code> and <code>yTarget</code>
+</li>
+<li>Now add the following script to your <b>Stage</b>
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig01.png" alt="fig01.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="5">This sets the variables to the coordinates that the player clicked on, and then broadcasts a message.
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-1-4" class="outline-3 code">
+<h3 id="sec-1-4">Code It</h3>
+<div class="outline-text-3" id="text-1-4">
+<ol class="org-ol">
+<li>We need a new sprite to receive the message. This will be a <code>target</code> sprite.
+</li>
+<li>Create a new sprite that looks like a pair of cross-hairs.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig02.png" alt="fig02.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="3">Also create or import a sprite that looks like a missile. The rocket sprite is quite good. We'll need this for the script.
+</li>
+<li value="3">Now we need to cause the target sprite to be hidden, but place a clone of itself at the mouse pointer, each time it receives a <code>fire</code> message. It will also broadcast <code>explode</code> if it gets touched by the missile.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig03.png" alt="fig03.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="4">Click the green flag and make sure that the script is working correctly.
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-1-5" class="outline-3 code">
+<h3 id="sec-1-5">Code It</h3>
+<div class="outline-text-3" id="text-1-5">
+<ol class="org-ol">
+<li>Now that a target has been set, we need to fire a missile.
+</li>
+<li>To make the game trickier, we're only going to allow one missile to be fired at a time. Create a new variable called <code>fired</code> to store whether a missile has been fired or not.
+</li>
+<li>Now add these scripts to your missile sprite.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig04.png" alt="fig04.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="4">Test your script again. It should be sending missiles off towards the target when you click the stage.
+</li>
+<li>We want the missiles to explode when they touch the target though.
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-1-6" class="outline-3 code">
+<h3 id="sec-1-6">Code It</h3>
+<div class="outline-text-3" id="text-1-6">
+<ol class="org-ol">
+<li>Let's create an explosion sprite. Make or import something that looks like a ball of fire. Make sure it starts off very small
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig05.png" alt="fig05.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="2">When the missile touches the target a clone of the explosion will be made. We then want it to grow and shrink.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig06.png" alt="fig06.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="3">Now go back to the missile sprite and add in this script.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig07.png" alt="fig07.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li value="4">Click the green flag to make sure it all works.
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-1-7" class="outline-3 code">
+<h3 id="sec-1-7">Code It</h3>
+<div class="outline-text-3" id="text-1-7">
+<ol class="org-ol">
+<li>To finish off we need to have the rocks begin destroyed if they touch the explosion. If they touch the base however, the game should end and a message should be displayed.
+</li>
+<li>Add a new backdrop to your stage. It should say something like <code>Game Over</code>
+</li>
+<li>Now switch to your <code>Rock</code> sprite and add in this script.
+</li>
+</ol>
+
+<div class="figure">
+<p><img src="img/fig09.png" alt="fig09.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Test your game to make sure that it works.
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-1-8" class="outline-3 badge">
+<h3 id="sec-1-8">Badge It</h3>
+<div class="outline-text-3" id="text-1-8">
+</div>
+<div id="outline-container-sec-1-8-1" class="outline-4">
+<h4 id="sec-1-8-1">Silver</h4>
+<div class="outline-text-4" id="text-1-8-1">
+<ul class="org-ul">
+<li>The explosion is a little dull. Use some image effects and motion to make it a little more exciting as it grows and shrinks. You can find lots of options in the <code>Looks</code> Panel.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-8-2" class="outline-4">
+<h4 id="sec-1-8-2">Gold</h4>
+<div class="outline-text-4" id="text-1-8-2">
+<ul class="org-ul">
+<li>The game is the same, all the way through. Make it more interesting by adding in a scoring system for each rock destroyed. A simple variable can do this. As the player's score increases, the rocks could get faster and more accurate.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-8-3" class="outline-4">
+<h4 id="sec-1-8-3">Platinum</h4>
+<div class="outline-text-4" id="text-1-8-3">
+<ul class="org-ul">
+<li>The original game was a little different to the one we've created.
+</li>
+<li>Instead of being able to see the missile sprite - hide it and use the pen tool to draw it's trail.
+</li>
+<li>Add in an additional two bases for the player to defend.
+</li>
+<li>Add in an occasional flying saucer that can drop bombs on the player's bases.
+</li>
+<li>Allow the player to fire up to three missiles simultaneously.
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>

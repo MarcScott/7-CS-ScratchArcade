@@ -1,0 +1,486 @@
+/*YEAR 7 Colours*/
+
+@scheme-color: #0071BB;
+@scheme-color-secondary: #E0E7F5;
+
+/*YEAR 8 Colours*/
+
+/*
+@scheme-color: #741371;
+@scheme-color-secondary:#E5DCE9;
+*/
+/*YEAR 9 Colours*/
+/*
+@scheme-color: #D12229;
+@scheme-color-secondary: #F7E4DC;
+*/@scheme-font: 'Ubuntu', Helvetica, Arial, sans-serif;
+@code-font: 'Ubuntu mono', "Courier New", Courier, monospace;
+
+/*!
+ * "Fork me on GitHub" CSS ribbon v0.1.1 | MIT License
+ * https://github.com/simonwhitaker/github-fork-ribbon-css
+*/
+
+/* Left will inherit from right (so we don't need to duplicate code) */
+.github-fork-ribbon {
+  /* The right and left classes determine the side we attach our banner to */
+  position: absolute;
+
+  /* Add a bit of padding to give some substance outside the "stitching" */
+  padding: 2px 0;
+
+  /* Set the base colour */
+  background-color: @scheme-color;
+
+  /* Set a gradient: transparent black at the top to almost-transparent black at the bottom */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.15)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+
+  /* Add a drop shadow */
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+
+  /* Set the font */
+  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  z-index: 9999;
+  pointer-events: auto;
+}
+
+.github-fork-ribbon a,
+.github-fork-ribbon a:hover {
+  /* Set the text properties */
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+
+  /* Set the geometry. If you fiddle with these you'll also need
+     to tweak the top and right values in .github-fork-ribbon. */
+  width: 200px;
+  line-height: 20px;
+
+  /* Set the layout properties */
+  display: inline-block;
+  padding: 2px 0;
+
+  /* Add "stitching" effect */
+  border-width: 1px 0;
+  border-style: dotted;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.github-fork-ribbon-wrapper {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.github-fork-ribbon-wrapper.fixed {
+  position: fixed;
+}
+
+.github-fork-ribbon-wrapper.left {
+  left: 0;
+}
+
+.github-fork-ribbon-wrapper.right {
+  right: 0;
+}
+
+.github-fork-ribbon-wrapper.left-bottom {
+  position: fixed;
+  top: inherit;
+  bottom: 0;
+  left: 0;
+}
+
+.github-fork-ribbon-wrapper.right-bottom {
+  position: fixed;
+  top: inherit;
+  bottom: 0;
+  right: 0;
+}
+
+.github-fork-ribbon-wrapper.right .github-fork-ribbon {
+  top: 42px;
+  right: -43px;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.github-fork-ribbon-wrapper.left .github-fork-ribbon {
+  top: 42px;
+  left: -43px;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+.github-fork-ribbon-wrapper.left-bottom .github-fork-ribbon {
+  top: 80px;
+  left: -43px;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
+  top: 80px;
+  right: -43px;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+/*Main Styles*/
+
+* {
+    margin: 0px padding: 0px;
+    font: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-family: @scheme-font;
+    text-align: center;
+    background: #FFF;
+}
+
+body {
+    max-width: 800px;
+    background: #FFFFFF;
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+    margin: 20px auto;
+    clear:both;
+}
+
+
+p code {
+    border-radius: 4px 4px 4px 4px;
+    background:@scheme-color-secondary;
+    padding:2px 5px;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+}
+
+pre {
+    font-size:16px;
+    font-family: @code-font;
+    font-weight: 400;
+    line-height: 1.5;
+    clear:both;
+    background:@scheme-color-secondary;
+    padding: 20px;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    overflow: auto;
+
+
+}
+
+/* CSS For Lesson*/
+
+.link-heading {
+    font-size: 15px;
+    background: @scheme-color;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    a:link{
+	color:#FFFFFF;
+    }
+    a:visited{
+	color:#FFFFFF;
+    }
+    a:hover{
+	color:#808080
+    }
+}
+.link-heading a:link{
+    color:#FFFFFF
+}
+
+h1{
+    font-size:50px;
+    color: @scheme-color;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity h2 {
+    font-size: 30px;
+    color: #FFF;
+    background: @scheme-color;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.activity img, video{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width:600px;
+}
+
+.activity iframe,object{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width:1000px;
+}
+form { 
+margin: 0 auto; 
+width:500px;
+}
+
+
+/* CSS for sub activities*/
+
+.learn h3{
+    background-image: url(icons/Learn.svg);
+}
+
+.research h3{
+    background-image: url(icons/Research.png);
+}
+
+.design h3 {
+    background-image: url(icons/Design.png);
+}
+
+.build h3 {
+    background-image: url(icons/Build.png);
+}
+
+.test h3 {
+    background-image: url(icons/Test.png);
+}
+
+.run h3 {
+    background-image: url(icons/Run.svg);
+}
+
+.document h3 {
+    background-image: url(icons/Document.png);
+}
+
+.code h3 {
+    background-image: url(icons/Code.svg);
+}
+
+.program h3 {
+    background-image: url(icons/Program.png);
+}
+
+.try h3{
+    background-image: url(icons/Try.svg);
+}
+
+.badge h3{
+    background-image: url(icons/Badge.svg);
+}
+.save h3{
+    background-image: url(icons/Save.svg);
+}
+
+h3 {
+    color: @scheme-color;
+    background-position: 0px 10px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left:50px;
+    font-size: 20px;
+
+    width: 100%;
+    border-top: 3px dotted @scheme-color;
+}
+
+/*CSS FOR LISTS*/
+.org-ul li:before {
+  clear: none;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 3px;
+  list-style-position: outside;
+  margin-left: 5px;
+  content: " ";
+  border-radius: 4px;
+  border: 2px solid @scheme-color;
+  padding: 6px 6px;
+  margin-right: 20px;
+  float: left;
+}
+.org-ol {
+  list-style-type: none;
+  list-style-type: decimal !ie;
+  /*IE 7- hack*/
+  counter-reset: li-counter;
+}
+.org-ol > li {
+  position: relative;
+  margin-bottom: 6px;
+}
+.org-ol > li:before {
+  clear: none;
+  color: white;
+  background-color: @scheme-color;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 1px;
+  list-style-position: outside;
+  margin-left: 5px;
+  content: " ";
+  border-radius: 4px;
+  padding: 3px 5px 3px 5px;
+  margin-right: 10px;
+  float: left;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+.org-ul {
+  list-style-type: none;
+  line-height: 24px;
+}
+
+blockquote {
+    text-align: center;
+    font-family: Georgia,serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 600px;
+    margin-left: 100px;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
+blockquote:after {
+display: block;
+content: "\201D";
+font-size: 80px;
+position: absolute;
+right: -20px;
+bottom: -60px;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+/*TABLES GRRR*/
+
+table {
+    border: 1px solid @scheme-color;;
+    border-collapse: collapse;
+    width: 100%;
+    text-align:center;
+    th{
+	background:@scheme-color-secondary;
+	border: 1px solid @scheme-color;
+	color: @scheme-color;
+    }
+    td{
+	border: 1px solid @scheme-color;
+    }
+}
+
+/*Maths*/
+math{
+  font-size:  200%
+}
+
+/*Floating Nav Bar*/
+
+#stickyribbon {
+    	      width:800px;
+    	      background: @scheme-color;
+    	      border-radius: 5px;
+	      position:static;
+	      top:0
+	      margin:15px 0;
+}
+ 
+#stickyribbon ul {
+	      display:table;
+	      width:100%;
+              list-style-type: none;
+	      padding:0;
+	      margin:0;
+}
+ 
+#stickyribbon li {
+	      display:table-cell;
+	      font-size: 16px;
+              font-weight: bold;
+	      vertical-align:middle;
+	      padding:0 10px;
+}
+ 
+#stickyribbon li a {
+	      display:block;
+              color: #fff;
+              text-decoration: none;
+}
+ 
+#stickyribbon li a:hover {
+              color: @scheme-color-secondary;
+}

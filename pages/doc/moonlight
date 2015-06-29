@@ -1,0 +1,78 @@
+play :Cs1
+play :Cs2
+
+4.times do
+play :Gs3
+sleep 0.5
+play :Cs4
+sleep 0.5
+play :E4
+sleep 0.5
+end
+
+play :B1
+play :B2
+
+4.times do
+play :Gs3
+sleep 0.5
+play :Cs4
+sleep 0.5
+play :E4
+sleep 0.5
+end
+
+play :A1
+play :A2
+
+2.times do
+play :A3
+sleep 0.5
+play :Cs4
+sleep 0.5
+play :E4
+sleep 0.5
+end
+
+play :Fs1
+play :Fs2
+
+2.times do
+play :A3
+sleep 0.5
+play :D4
+sleep 0.5
+play :Fs4
+sleep 0.5
+end
+
+play :Gs1
+play :Gs2
+
+1.times do
+play :Gs3
+sleep 0.5
+play :Cs4
+sleep 0.5
+play :E4
+sleep 0.5
+end
+
+1.times do
+play :Gs3
+sleep 0.5
+play :Cs4
+sleep 0.5
+play :Eb4
+sleep 0.5
+end
+
+1.times do
+play :Fs3
+sleep 0.5
+play :C4
+sleep 0.5
+play :Eb4
+sleep 0.5
+end
+

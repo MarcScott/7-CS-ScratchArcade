@@ -1,0 +1,93 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
+
+#+TITLE: Books about CS, Hacking and Technology
+#+AUTHOR: Marc Scott
+
+
+** [[http://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg][Cuckoo's Egg -  C. J. Cherryh]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+[[https://upload.wikimedia.org/wikipedia/en/9/95/CherryhCuckoosEggPBCover.jpg]]
+** [[http://en.wikipedia.org/wiki/Ready_Player_One][Ready Player One - Ernest Cline]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:     
+#+attr_html: :width 100px
+   [[https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg]]
+** [[http://en.wikipedia.org/wiki/Neuromancer][Neuromancer- William Gibson]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+   https://upload.wikimedia.org/wikipedia/en/4/4b/Neuromancer_%28Book%29.jpg
+
+
+** [[https://en.wikipedia.org/wiki/Cryptonomicon][The Cryptonomicon - Neal Stephenson]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+   https://upload.wikimedia.org/wikipedia/en/9/93/Cryptonomicon%281stEd%29.jpg
+
+** [[http://en.wikipedia.org/wiki/Snow_Crash][Snowcrash - Neal Stephenson]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://upload.wikimedia.org/wikipedia/en/d/d5/Snowcrash.jpg
+** [[http://en.wikipedia.org/wiki/Reamde][REAMDE - Neal Stephenson]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://upload.wikimedia.org/wikipedia/en/2/26/Reamde_stephenson_williammorrow_2011.jpg
+
+** [[https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%253F][Do Androids Dream of Electric Sheep - Philip K. Dick]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://upload.wikimedia.org/wikipedia/en/e/ee/DoAndroidsDream.png
+
+** [[http://www.amazon.co.uk/Electronic-Gadgets-Evil-Genius-Do-It-Yourself/dp/0071790594/ref%3Dpd_sim_14_1?ie%3DUTF8&refRID%3D14JAWCQMGV57W7XVYX71][Electronics Gadgets for the Evil Genius - Bob Iannini ]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://images.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fwww.pitsco.com%2FiCongoProductImages%2FiCg_ElectronicGadgetsEvil.jpg&u=https://c10645061.ssl.cf2.rackcdn.com/product/icongo/icg_electronicgadgetsevil.jpg
+
+** [[http://www.amazon.co.uk/Python-Kids-Playful-Introduction-Programming/dp/1593274076][Python for Kids - Jason R. Briggs]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://www.nostarch.com/sites/default/files/imagecache/product_full/PFK_frontcover.jpg
+
+** [[https://en.wikipedia.org/wiki/The_Peripheral][Peripheral - William Gibson]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+[[file:img/theperipheral.jpg]]
+
+
+** [[https://en.wikipedia.org/wiki/Influx_%2528novel%2529][Influx - Daniel Saurez]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://www.sfsite.com/grb/1400/iflg.jpg
+
+** [[https://en.wikipedia.org/wiki/The_Andromeda_Strain][The Andromeda Strain - Michael Crighton]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+attr_html: :width 100px
+https://upload.wikimedia.org/wikipedia/en/b/bf/Big-andromedastrain.jpg

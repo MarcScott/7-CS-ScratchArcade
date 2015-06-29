@@ -1,0 +1,212 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
+
+#+TITLE: ESafety
+#+AUTHOR: Marc Scott
+
+#+BEGIN_HTML
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/7-CS-ESafety">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+    </ul>
+  </div>
+#+END_HTML
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* What are Hackers?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+[[file:img/headlines.png]]
+- We hear about "Hackers" all the time in the media. "Hackers" stealing state secrets, "Hackers" stealing photos from iCloud and SnapChat, "Hackers" stealing money from bank accounts.
+- These "Hackers" sound like a very nasty bunch of people.
+- Then again, there are these things called "Hackathons" like [[https://gigaom.com/2012/09/07/googles-develop-for-good-hackathon-winners-tackle-environment-human-rights/][this one]] that seems focused on producing solutions to climate change and human rights. There's also this site called [[https://news.ycombinator.com/][Hacker News]] filled with technical articles about computing and politics.
+- It seems that not everyone can agree on what the term /Hacker/ means.
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Have a read of the [[https://en.wikipedia.org/wiki/Hacker_(term)][this wikipedia article]] on what is meant by the term Hacker]
+- You don't have to read the whole article, just the first few paragraphs.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- So it appears, when we are tying to be safe online, there are some hackers that we should be wary of, and others that can even help us.
+- To make sure there is no confusion, we'll use the term /cracker/ to refer to /black-hat hackers/.
+* How do crackers crack?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- There are primarily two ways in which a cracker can gain access to your computer, data, or online accounts.
+- The first method (and the most worrying) are called /Zero Days/
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Try and answer the following questions. The answers will help you with the badge at the end.
+  1. What is meant by the term /Zero Day/
+  2. What is the significance of the word /Zero/
+  3. Can you list some recent /Zero Day/ exploits that have been reported by the media.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- As users there is not much we can do about /Zero Day/ exploits.
+- We have to rely on white-hat hackers to discover them before the crackers do, so that the bugs can be patched.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- The second method by which crackers work is to rely on Human fallibility. That is the concept that we all make mistakes or stupid decisions.
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Password security is one of the major ways we can ensure we stay safe in a digital world. If a cracker has your password or can guess it, then you're in trouble.
+[[http://imgs.xkcd.com/comics/password_strength.png]]
+- Edward Snowden used to be a Hacker for the NSA (The USA National Security Agency), so he should know a thing or two about passwords.
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yzGzB-yYKcc" frameborder="0" allowfullscreen></iframe>
+#+end_html
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+- Come up with a list of guidance for choosing strong passwords.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Another method used by crackers is called /Social Engineering/. This relies on using Psychological techniques to get users to allow a cracker access to their computer or accounts.
+- There are several methods of /Social Engineering/ commonly used, some of which are:
+  - Phishing 
+  - Pretexting
+  - Baiting
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Phishing is a method of social engineering whereby the crackers send out emails to their intended targets.
+- They might ask them to send personal details, or download a particular file.
+- The details can be used to commit identity fraud, and the files to be downloaded are almost always malware.
+- Have a look at this email.
+[[file:img/spam.png]]
+- List all the things about the email that you consider suspicious.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Pretexting is a little trickier to perform.
+- The cracker will usually phone up a target on some /pretext/ such as that their bank account has seen some suspicious activity. They will then ask for personal details and even passwords over the phone, which will allow the cracker to gain access to the victims accounts.
+- Sometimes the victim isn't even involved in /Pretexting/. A cracker might phone up Amazon, for instance, and convince a staff member that they need to reset the victims password.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Baiting relies on people's greed.
+- A cracker will load a USB drive with malware and then leave it somewhere, like a coffee shop or the floor of a car-park.
+- An individual that picks up the drive and plugs it into their computer will automatically have the malware loaded onto their system.
+* What is malware?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Malware is short for Malicious Software.
+- So malware are programs that have been written to perform nasty operations on your computer. Malware might wipe files, lock files away, log key presses or send information on the user to a cracker.
+* Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- There are many classes of malware. Some are listed below.
+  - Viruses
+  - Trojans
+  - Ransomware
+- For each of the types of malware, find out what they do and how to protect yourself from them.
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- You have been tasked with coming up with advice for your teachers at your school. Come up with a single (email-able) document that could be distributed to teachers to inform them of how to keep themselves protected both on and offline.

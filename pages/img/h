@@ -1,0 +1,936 @@
+
+        <!DOCTYPE html>
+<html lang="en-GB" class="no-js" data-device-type="dedicated">
+    <head>
+    
+    
+         
+                <link rel="stylesheet" href="https://www.paypalobjects.com/eboxapps/css/12/606a1fdb58d4897cee7cabf2e5bef5f5025831.css" rel="stylesheet" type="text/css" />
+        
+    
+
+        
+            
+            
+            
+                <link rel="stylesheet" href="https://www.paypalobjects.com/eboxapps/css/27/5a92c759ad3cb53e7fc68a188e04391c7be2e9.css" rel="stylesheet" type="text/css" />
+            
+        
+
+        
+        
+    <link rel="stylesheet" href="https://www.paypalobjects.com/eboxapps/css/4a/2d21864175327d367e2fb16384f1325b5c33c5.css" rel="stylesheet" type="text/css" />
+
+        
+        
+
+        
+        
+
+        
+	
+		<!--
+	    	Script info: script: node, template:  , date: Jun 15, 2015 02:03:07 -07:00, country: GB, language: en
+	    	web version: 
+	    	content version: 
+	    	hostname : rZJvnqaaQhLn/nmWT8cSUjOx898qoYZ04MNYN85PUWpY0MF3e/l8Tw
+	    	rlogid : quL%2BuCKMCGswHOjCjBVsfruJnkonmGcnFZ9941dJtt1ZePxbTJZdm5t3rUyOiEapbiTvlT2410A_14df6753ade
+	    -->
+	
+
+<title>PayPal United Kingdom: Pay, Send Money & Accept Payments</title>
+<!--
+
+$$$$$$$\                     $$$$$$$\           $$\
+$$  __$$\                    $$  __$$\          $$ |
+$$ |  $$ |$$$$$$\  $$\   $$\ $$ |  $$ |$$$$$$\  $$ |
+$$$$$$$  |\____$$\ $$ |  $$ |$$$$$$$  |\____$$\ $$ |
+$$  ____/ $$$$$$$ |$$ |  $$ |$$  ____/ $$$$$$$ |$$ |
+$$ |     $$  __$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |
+$$ |     \$$$$$$$ |\$$$$$$$ |$$ |     \$$$$$$$ |$$ |
+\__|      \_______| \____$$ |\__|      \_______|\__|
+                   $$\   $$ |
+                   \$$$$$$  |
+                    \______/
+
+Now hiring @ http://jobs.ebaycareers.com/search/paypal-jobs
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="NOODP"/>
+<meta charset="UTF-8" />
+<meta name="application-name" content="PayPal" />
+<meta name="msapplication-task" content="name=My Account;action-uri=https://www.paypal.com/gb/cgi-bin/webscr?cmd=_account;icon-uri=https://www.paypalobjects.com/webstatic/icon/favicon.ico" />
+<meta name="msapplication-task" content="name=Send Money;action-uri=https://www.paypal.com/gb/cgi-bin/webscr?cmd=_send-money-transfer&send_method=domestic;icon-uri=https://www.paypalobjects.com/webstatic/icon/favicon.ico" />
+<meta name="msapplication-task" content="name=Request Money;action-uri=https://www.paypal.com/gb/webapps/mpp/requesting-payments;icon-uri=https://www.paypalobjects.com/webstatic/icon/favicon.ico" />
+<meta name="keywords" content="Pay online, transfer money, accept card payments, online payments, money transfer, send money." />
+<meta name="description" content="Discover PayPal, the safer way to pay, receive payments for your goods or services and transfer money to friends and family online." />
+
+
+
+    
+    	
+        
+    	
+            
+            
+                
+                <link rel="canonical" href="https://www.paypal.com/uk/home" />
+            
+		
+    
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.paypalobjects.com/webstatic/icon/pp144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.paypalobjects.com/webstatic/icon/pp114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.paypalobjects.com/webstatic/icon/pp72.png" />
+<link rel="apple-touch-icon-precomposed" href="https://www.paypalobjects.com/webstatic/icon/pp64.png" />
+<link rel="shortcut icon" sizes="196x196" href="https://www.paypalobjects.com/webstatic/icon/pp196.png" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.paypalobjects.com/webstatic/icon/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="https://www.paypalobjects.com/webstatic/icon/pp32.png" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+
+
+
+
+<style id="antiClickjack">
+    html.js body {display: none !important;}
+</style>
+<script>
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+
+
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org/",
+  "@type": "Organization",
+  "url": "https://www.paypal.com/",
+  "logo": "https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.png"
+  }
+</script>
+
+<!--[if IE 8 ]>
+ <script src="https://www.paypalobjects.com/eboxapps/js/50/f5548e5cfa43a3f52574a061e4fe89f59ae5bd.js"></script> 
+<![endif]-->
+<script>
+    (function () {
+        
+        var dataLayer = {
+
+            
+            contentCountry: 'GB'.toLowerCase(),
+
+            
+            contentLanguage: 'en'.toLowerCase(),
+
+            
+            localTimeZone: '',
+
+            
+            localTime: (new Date()).toString(),
+
+            
+            FptiId: '',
+
+            
+            gaCid: '',
+
+            
+            gaUid: ''
+        };
+
+        
+        var analyticsUrl = '//www.paypalobjects.com/gajs/analytics.js';
+
+        
+        var accountId = 'UA-53389718-2';
+
+        
+        var isLocalhost = (document.location.hostname === "localhost.paypal.com");
+
+        var pathname = window.location.pathname.toLowerCase();
+
+        var search = window.location.search.toLowerCase();
+
+        
+        
+
+        
+        var minutesUtcOffset = -((new Date()).getTimezoneOffset() / 60);
+        dataLayer.localTimeZone = " UTC" + minutesUtcOffset;
+
+        
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script',analyticsUrl,'ga');
+
+        
+        ga('create', accountId, isLocalhost ? { 'cookieDomain': 'none' } : 'auto');
+
+        
+        ga('require', 'displayfeatures');
+
+        // Set value for LocalTimeZone dimension
+        ga('set', 'dimension1', dataLayer.localTimeZone);
+
+        // Set value for LocalTime dimension
+        ga('set', 'dimension2', dataLayer.localTime);
+
+        
+        ga(function (tracker) {
+            dataLayer.gaCid = tracker.get('clientId');
+            ga('set', 'dimension3', dataLayer.gaCid);
+        });
+
+        if (pathname.indexOf('/uk/') === 0) {
+            
+            ga('set', 'page', '/gb/' + pathname.substring(4) + search);
+        }
+        else if (pathname.indexOf('/' + dataLayer.contentCountry + '/') !== 0) {
+            
+            ga('set', 'page', '/' + dataLayer.contentCountry + pathname + search);
+        }
+
+        ga('send', 'pageview');
+
+    }());
+</script>
+        
+<meta property="og:url" content="https://www.paypal.com/gb/webapps/mpp/home" />
+<meta property="og:type" content="website" />
+
+	<meta property="og:title" content="PayPal United Kingdom: Pay, Send Money & Accept Payments"/>
+
+
+
+	<meta property="og:image" content="https://www.paypalobjects.com/webstatic/icon/pp258.png">
+
+
+
+	<meta property="og:description" content="Discover PayPal, the safer way to pay, receive payments for your goods or services and transfer money to friends and family online." />
+
+
+
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@paypal">
+
+	<meta property="twitter:title" content="PayPal United Kingdom: Pay, Send Money & Accept Payments" />
+
+
+
+	<meta property="twitter:description" content="Discover PayPal, the safer way to pay, receive payments for your goods or services and transfer money to friends and family online." />
+
+
+
+	<meta property="twitter:image" content="https://www.paypalobjects.com/webstatic/icon/pp196.png" />
+
+<meta property="twitter:url" content="https://www.paypal.com/gb/webapps/mpp/home" />
+        
+    
+
+    </head>
+    
+    
+    <body >
+
+    
+    
+         
+                <div id="body" class="nav-simple">
+        
+    
+
+            
+    
+<section class="row-fluid row-notification cookie-notification light">
+    <div class="containerCentered">
+        <div class="span12">
+            <p>By using PayPal.com you agree to our <a href="https://www.paypal.com/uk/webapps/mpp/ua/cookie-full">use of cookies</a> to enhance your experience.
+            	<a href="#Close" id="cookie-alert-close" class="notification-close" role="button" title="Close">
+            		<span class="accessAid">Close</span>
+            	</a>
+        	</p>
+        </div>
+    </div>
+</section>
+
+
+    
+<section class="row-fluid row-notification separation-notification light">
+    <div class="containerCentered">
+        <div class="span12">
+            <p>eBay and PayPal will be separate companies soon. We’ve updated the eBay and PayPal User Agreements and Privacy Policies. <a href="https://www.paypal.com/uk/webapps/mpp/paypal-ebay-update">Learn more</a>
+            	<a href="#Close" id="sep-alert-close" class="notification-close" role="button" title="Close">
+            		<span class="accessAid">Close</span>
+            	</a>
+        	</p>
+        </div>
+    </div>
+</section>
+
+            
+            
+            <div id="fixed-top" class="moving-background-container container-fixed">
+
+                
+                
+                     
+                        
+<header role="banner">
+    <div class="containerCentered ">
+        
+
+        <a href="https://www.paypal.com/uk/webapps/mpp/home" class="paypal-img-logo">PayPal</a>
+
+        
+            
+            <nav class="main-menu" id="main-nav" role="navigation">
+    <ul>
+        
+        <li>
+            <a href="https://www.paypal.com/uk/webapps/mpp/personal" class="no-drop" name="header|personal" id="header-everyone">Personal</a>
+        </li>
+        
+        <li>
+            <a href="https://www.paypal.com/uk/webapps/mpp/merchant" class="no-drop" name="header|merchant" id="header-business">Business</a>
+        </li>
+        
+        <li>
+            <a href="https://www.paypal.com/uk/webapps/mpp/partners-and-developers" class="no-drop" name="header|pnd" id="header-developer">Partners and Developers</a>
+        </li>
+        
+    </ul>
+
+    
+    
+
+</nav>
+        
+
+        
+        
+            
+            
+                <div class="header-buttons">
+                
+
+                    
+                    <a href="https://www.paypal.com/signin?country.x=GB&locale.x=en_GB" id="ul-btn" class="btn btn-small btn-secondary">Log In</a>
+
+                    
+                    <a href="https://www.paypal.com/uk/signup/account" id="signup-button" name="SignUp_header" class="btn btn-small btn-signup">Sign Up</a>
+                </div>
+            
+        
+    </div>
+</header>
+                    
+                
+
+                
+    
+        
+        
+
+
+
+
+
+<section id="un-cookiedHero" class="row-fluid hero hero-fixed hero-home dark ">
+    <div id="hero" class="hero-bg moving-background filler hero-video-still">
+        <div class="containerCentered containerMobileFullWidth">
+            <div class="vertical-centered text-center center-text center-block">
+            
+            
+                
+                    <div class="hero-headline"><h1>The simpler, safer way to<br/> pay and get paid.</h1></div>
+                
+                
+                
+                    <div class="hero-cta"><a href="https://www.paypal.com/uk/signup/account" class="btn" id="hero-signup-btn">Get Started</a> <a href="https://www.paypalobjects.com/webstatic/en_GB/mktg/pages/peoples-rule/people-rule-en.mp4" class="btn how-pp-works scTrack:hero|how-pp-works-video"><span class="icon-play"></span>How PayPal works</a></div>
+                
+                
+                
+
+            
+            </div>
+        </div>
+            
+        <div class="novideo-bg show"></div>
+        
+        
+        
+        
+
+        
+        
+        
+    </div>
+</section>
+    
+
+            </div>
+            
+            <div role="main" id="main" class="containerMobileFullWidth">
+	            
+    
+
+
+
+<section class="row-fluid panel " id="n1">
+	
+	<header class="containerCentered center-text">
+		<h2 class="pulloutHeadline ">Join 162 million shoppers and 7 million businesses worldwide.</h2>
+		
+	</header>
+	
+	<div class="containerCentered">
+		<div class="span4">
+			
+			
+			
+			
+			<h2 class="contentHead large h3">Safer and protected</h2>
+			<p class="contentPara">Shop with peace of mind. We don’t share your sensitive financial details with sellers. And PayPal <a href="https://www.paypal.com/uk/webapps/mpp/paypal-safety-and-security">Buyer Protection</a> covers your eligible purchases if they don’t show up or match their description.</p>
+			
+		</div>
+		<div class="span4">
+			
+			
+			
+			
+			<h2 class="contentHead large h3">Simple and convenient</h2>
+			<p class="contentPara">Pay quickly and more securely with just an email address and password or mobile number and PIN. No need to re-enter your card and delivery details every time you check out.</p>
+			
+		</div>
+		<div class="span4">
+			
+			
+			
+			
+			<h2 class="contentHead large h3">Truly global</h2>
+			<p class="contentPara">Whether you’re buying or selling, PayPal brings the world to you. Pay or get paid in 203 countries and markets, and in 26 currencies.</p>
+			
+		</div>
+	</div>
+	
+</section>
+
+    
+
+
+
+<section class="row-fluid panel " id="rtb2">
+	
+	<div class="containerCentered">
+		<div class="span4">
+			
+			
+			
+			
+			<h2 class="contentHead large h3">Any device</h2>
+			<p class="contentPara">Speed through checkout easier and faster anywhere, on your mobile, tablet or desktop.</p>
+			
+		</div>
+		<div class="span4">
+			
+			
+			
+			
+			<h2 class="contentHead large h3">24/7 customer support</h2>
+			<p class="contentPara">Online or on the phone, we’re here to help with any queries you may have.</p>
+			
+		</div>
+		<div class="span4">
+			
+			
+			
+			
+			<h2 class="contentHead large h3">Preferred by customers</h2>
+			<p class="contentPara">We’re Great Britain’s No.1 preferred online and mobile payment method*.</p>
+			
+		</div>
+	</div>
+	
+</section>
+
+    
+
+
+<section class="row-fluid row panel four-panel blue reverseLink" id="rtb3">
+    
+    <header class="containerCentered center-text container text-center">
+        <h2 class="pulloutHeadline ">PayPal is for everyone who pays or gets paid.</h2>
+        
+    </header>
+    
+    <div class="containerCentered container4d2p1m container">
+        <div class="span3 col-sm-6 col-md-3">
+            
+            
+            
+            
+
+            <h2 class="contentHead medium h4">Individuals</h2>
+            <p class="contentPara">Find out why over 20 million UK shoppers use PayPal each year.</p>
+            <a class="contentLink scTrack:Individuals" href="https://www.paypal.com/uk/webapps/mpp/personal"    >Learn More</a>
+            
+            
+        </div>
+        <div class="span3 col-sm-6 col-md-3">
+            
+            
+            
+            
+            <h2 class="contentHead medium h4">Businesses</h2>
+            <p class="contentPara">Join 7 million businesses around the world offering PayPal.</p>
+            <a class="contentLink scTrack:Businesses" href="https://www.paypal.com/uk/webapps/mpp/merchant"    >Learn More</a>
+            
+            
+        </div>
+        <div class="clearfix visible-sm ui-hidden-mobile ui-hidden-dedicated"></div>
+        <div class="span3 col-sm-6 col-md-3">
+            
+            
+            
+            
+            <h2 class="contentHead medium h4">Charities</h2>
+            <p class="contentPara">We offer custom solutions for charities and not for profits.</p>
+            <a class="contentLink scTrack:Charities" href="https://www.paypal.com/uk/webapps/mpp/non-profit"    >Learn More</a>
+            
+            
+        </div>
+        <div class="span3 col-sm-6 col-md-3">
+            
+            
+            
+            
+            <h2 class="contentHead medium h4">Partners and developers</h2>
+            <p class="contentPara">Work with PayPal to offer your customers world class payment solutions.</p>
+            <a class="contentLink scTrack:PnD" href="https://www.paypal.com/uk/webapps/mpp/partners-and-developers"    >Learn More</a>
+            
+            
+        </div>
+    </div>
+    
+</section>
+
+
+    <section class="panel">
+        <div class="row-fluid">
+        <div class="containerCentered">
+            <div class="span12 center-text">
+                <h2>PayPal connects buyers and sellers.</h2><br/><br/>
+            </div>
+        </div>
+        </div>
+        
+
+<section class="steps-section row-fluid white ">
+	
+	<div class="containerCentered containerExtend center-text">
+		<h3 class="span12 pulloutHeadline">For Buyers</h3>
+	</div>
+	
+	<div class="containerCentered containerExtend">
+		<div class="span4 steps">
+			<p class="circle">1</p>
+			<p class="step-text"><a href="https://www.paypal.com/uk/signup/account">Sign up</a> with just an email address and password.</p>
+		</div>
+		<div class="span4 steps">
+			<p class="circle">2</p>
+			<p class="step-text">Securely link your bank account, debit cards and credit cards.</p>
+		</div>
+		<div class="span4 steps">
+			<p class="circle">3</p>
+			<p class="step-text">Use the PayPal button to check out with just an email and password or mobile number and PIN.</p>
+		</div>
+	</div>
+	
+</section>
+        <div class="containerCentered center-text">
+            <img src="https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/uk_homepage_devices_1x.png">
+        </div>
+        
+
+<section class="steps-section row-fluid white ">
+	
+	<div class="containerCentered containerExtend center-text">
+		<h3 class="span12 pulloutHeadline">For Sellers</h3>
+	</div>
+	
+	<div class="containerCentered containerExtend">
+		<div class="span4 steps">
+			<p class="circle">1</p>
+			<p class="step-text">Set up a <a href="https://www.paypal.com/uk/merchantsignup/router/wps">business account</a>.</p>
+		</div>
+		<div class="span4 steps">
+			<p class="circle">2</p>
+			<p class="step-text">Choose the features you want to start with. You can go back, change or add to them later.</p>
+		</div>
+		<div class="span4 steps">
+			<p class="circle">3</p>
+			<p class="step-text">Integrate PayPal via a partner, a developer or by yourself.</p>
+		</div>
+	</div>
+	
+</section>
+    </section>
+
+    
+
+
+<section class="closing-section row-fluid panel center-text light" >
+    <div class="containerCentered">
+        <div class="span12">
+            <p class="closingHeadline headline large">Sign up and get started.</p>
+            
+            
+                
+                    <a class="btn closing-cta center-block span4" href="https://www.paypal.com/uk/signup/account"    >Get Started</a>
+                
+            
+             
+            
+        </div>
+    </div>
+</section>
+
+    <section class="row-fluid">
+        <div class="containerCentered">
+            <div class="span12">
+            <p class="legal-notes">* Research carried out by Ipsos MORI using Capibus, a face-to-face omnibus study in Great Britain interviewing a nationally representative profile of adults 15+ each week. Interviews are conducted in home using CAPI (Computer Aided Personal Interviewing) technique. Data are weighted to known population proportions for age, region, social grade and working status within gender as well as household tenure and ethnicity. 1,162 online shoppers aged 18+ interviewed between 1st-10th August 2014 (408 of whom were aged 25-44 and 696 of whom used PayPal). 588 mobile shoppers aged 18+ interviewed between 11th-21st July 2014 and 1,916 GB adults 18+adults aged 18+ interviewed between 18th-28th July 2014.</p>
+            </div>
+        </div>
+    </section>
+
+            </div>
+            
+
+<footer role="contentinfo" class="global-footer">
+    <div class="containerCentered containerExtend">
+        
+            <ul class="footer-main secondaryLink">
+                
+                    <li><a href="https://www.paypal.com/uk/cgi-bin/helpweb?cmd=_help">Help</a></li>
+                
+                    <li><a href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_help&amp;t=escalateTab">Contact</a></li>
+                
+                    <li><a href="https://www.paypal.com/uk/webapps/mpp/paypal-fees">Fees</a></li>
+                
+                    <li><a href="https://www.paypal.com/uk/webapps/mpp/paypal-safety-and-security">Security</a></li>
+                
+                    <li><a href="https://www.paypal.com/uk/webapps/mpp/mobile-apps">Apps</a></li>
+                
+                    <li><a href="https://www.paypal.co.uk/shopping">Shop</a></li>
+                
+                
+                
+    <li class="country-selector ">
+      
+      
+        
+            
+       
+      
+      		
+      			<a href="https://www.paypal.com/uk/webapps/mpp/country-worldwide" title="Change Language or Country" class="country unitedkingdom">Change Language or Country</a>
+      		
+      		
+    </li>
+
+                
+                    <li class="footer-search">
+                        
+<a href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_sitewide-search" class="search-icon" title="Search" aria-label="Search">Search</a>
+                    </li>
+                
+            </ul>
+
+            <ul class="footer-secondary secondaryLink">
+                
+                    
+                        <li><a href="https://www.paypal.com/uk/webapps/mpp/about">About</a></li>
+                    
+                        <li><a href="https://www.paypal.co.uk/blog">Blog</a></li>
+                    
+                        <li><a href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=p/gen/jobs">Jobs</a></li>
+                    
+                        <li><a href="https://www.paypal.com/uk/webapps/mpp/full-sitemap">Sitemap</a></li>
+                    
+                        <li><a href="http://www.ebay.com/">eBay</a></li>
+                    
+                        <li><a href="https://developer.paypal.com/">Developers</a></li>
+                    
+                        <li><a href="https://www.paypal-marketing.com/emarketing/partner/uk/program/index.html">Partners</a></li>
+                    
+                
+                <li id="siteFeedback" class="">
+                    
+                    
+
+<script>
+		var feedback_link = '';
+		
+			feedback_link="Feedback";
+		
+		var PAYPAL = PAYPAL ? PAYPAL : {};
+		PAYPAL.opinionLabVars = {
+			'siteCatalystPageName' 		: '',
+			'siteCatalystC7' 			: '',
+			'siteCatalystAccountNumber' : '',
+			'feedback_link' 			: feedback_link,
+			'isPaymentFlow' 			: false,
+			'isSiteRedirect' 			: false,
+			'languageCode' 				: 'en',
+			'countryCode' 				: 'GB',
+			'serverName' 				: 'www.paypal.com',
+			'commentCardCmd' 			: '',
+			'accountNumber'				: '',
+			'miniBrowser'				: false,
+			'sitefb_plus_icon'			: 'https://www.paypalobjects.com/en_US/i/scr/sm_333_oo.gif',
+			'rLogId'					: escape('quL%2BuCKMCGswHOjCjBVsfruJnkonmGcnFZ9941dJtt1ZePxbTJZdm5t3rUyOiEapbiTvlT2410A_14df6753ade'),
+			'showSitefbIcon'			: false
+		};
+</script>
+
+                </li>
+            </ul>
+        
+
+        <ul class="footer-tertiary secondaryLink">
+            <li id="footer-copyright">&copy; 1999-2015 </li>
+
+            
+                
+                    
+                        <li id="footer-privacy"><a href="https://www.paypal.com/uk/webapps/mpp/ua/privacy-full">Privacy</a></li>
+                    
+                    
+                        <li id="footer-legal"><a href="https://www.paypal.com/uk/webapps/mpp/ua/legalhub-full">Legal</a></li>
+                    
+                
+                
+            
+
+        </ul>
+        
+    </div>
+    
+</footer>
+
+        </div>
+
+        
+        
+<script>
+    var PP_GLOBAL_JS_STRINGS = {
+        "CLOSE": "Close",
+        "TOGGLE_FULL_SCREEN": "Toggle Full Screen",
+        "NO_PLAY_VIDEO": "Your browser cannot play this video",
+        "CLICK_TO_PLAY": "Paused. Click to play.",
+        "PLAY": "Play",
+        "PAUSE": "Pause",
+        "PLAY_OR_PAUSE": "Play or Pause",
+        "MUTE": "Mute",
+        "SEEK_VIDEO": "Skip to another location in the video",
+
+        "MESSAGE_REQUIRED": "This field is required",
+        "MESSAGE_REMOTE": "Please fix this field",
+        "MESSAGE_EMAIL": "Please enter a valid email address",
+        "MESSAGE_EMAIL_OR_PHONE": "Please enter a valid email address or phone number",
+        "MESSAGE_URL": "Please enter a valid URL",
+        "MESSAGE_DATE": "Please enter a valid date",
+        "MESSAGE_DATEISO": "Please enter a valid date (ISO)",
+        "MESSAGE_NUMBER": "Enter a value",
+        "MESSAGE_DIGITS": "Please enter only digits",
+        "MESSAGE_CREDITCARD": "Please enter a valid credit card number",
+        "MESSAGE_EQUALTO": "Please enter the same value again",
+        "MESSAGE_ACCEPT": "Please enter a value with a valid extension",
+        "MESSAGE_MAXLENGTH": "Please enter no more than {0} characters",
+        "MESSAGE_MINLENGTH": "Please enter at least {0} characters",
+        "MESSAGE_RANGELENGTH": "Please enter a value between {0} and {1} characters long",
+        "MESSAGE_RANGE": "Please enter a value between {0} and {1}",
+        "MESSAGE_MAX": "Please enter a value less than or equal to {0}",
+        "MESSAGE_MIN": "Please enter a value greater than or equal to {0}",
+        "MESSAGE_BADPHONE": "We can't send money to that phone number. Please use an email address."
+    };
+
+    var HOLIDAYS = '';
+</script>
+
+        
+         
+                 <script src="https://www.paypalobjects.com/eboxapps/js/04/76d997d3e179401089bf4c6dd42429c0b0e079.js"></script> 
+        
+        
+
+        
+        <!--[if lte IE 9]>
+         <script src="https://www.paypalobjects.com/eboxapps/js/b2/f34e53f94c2a6fb2a579294142f824ea64fad5.js"></script> 
+        <![endif]-->
+
+        
+        
+
+        
+        
+     <script src="https://www.paypalobjects.com/eboxapps/js/52/eec66642fec1862ed231d51248b68ca8f03d12.js"></script> 
+    <script>
+    $(function() {
+        /* GA: Track Signup Button */
+        $("#hero-signup-btn").on('mousedown', function (e) {
+            if (typeof ga !== 'undefined' && ga !== null) ga('send', 'event', 'MPP Sign-Up Button', 'Hero', 'UK Homepage');
+        });
+
+        $('#rtb2 .contentHead, #rtb3 .contentPara').matchHeight();
+
+        // video lightbox
+        new PAYPAL.Marketing.VideoLightBox(".how-pp-works", 640, 460, "https://www.paypalobjects.com/webstatic/mktg/beacon/bottom-video-words2.jpg");
+    });
+    </script>
+
+
+        
+
+
+	
+		
+			<script src="//www.paypalobjects.com/js/site_catalyst/pp_jscode_080706.js"></script>
+			<script>
+				s.prop71="Nodejs";
+				s.prop40="adb0f5be74824";
+				s.prop20="Unknown";
+				s.prop50="en_GB";
+				s.prop1="home.dust";
+				s.eVar72="uqe=|uqt=|uqc=|xe=1138,453,806,1100,1101|xt=2616,885,1623,2468,2470";
+				s.prop14="";
+				s.prop28="Unknown";
+				s.prop29="";
+				s.prop36="https://www.paypal.com/webapps/mpp/home";
+				s.prop30="gb";
+				s.server="main";
+				s.channel="mktg";
+				ContentTask="home";
+				s.prop51="";
+				s.prop31="personal";
+				subFeature2="";
+				s.prop43="Unknown";
+				s.prop37="";
+				s.prop35="out";
+				s.pageName="main:mktg:personal::home";
+				s.prop25="main:mktg:personal::home:::2616-885-1623-2468-2470";
+				s.eVar25="main:mktg:personal::home:::2616-885-1623-2468-2470";
+				s.hier1="main_mktg_personal_";
+				s.events="";
+				s.products="";
+				s.eVar3="";
+				
+			</script>	
+			<script><!--	
+				/************ DO NOT ALTER ANYTHING BELOW THIS LINE ! *************/
+				 function scOnload(){
+				 	var s_code=s.t();
+				 	if(s_code)document.write(s_code);
+				 }
+				 
+				 	if (window.addEventListener){
+						window.addEventListener('load',scOnload,false);
+					 } else if (window.attachEvent){
+						window.attachEvent('onload', scOnload);
+					 };
+				 
+				 if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+			 //-->
+			 </script>
+			<noscript><img src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?pageName=NonJavaScript" alt="" height="1" width="1" border="0"></noscript>
+			<!-- DO NOT REMOVE THIS COMMENT -->
+			<!-- End SiteCatalyst Code -->
+		
+	
+
+        
+
+
+	
+		
+			
+				
+					<script src="//www.paypalobjects.com/pa/js/pa.js"></script>
+				
+			
+			<script>
+				(function(){
+                    var callFpti = function(fptiDataString) {
+                        PAYPAL.core.pta = PAYPAL.analytics.setup({data:fptiDataString, url:'\/\/t.paypal.com\/ts'});
+                    }
+
+					if(typeof PAYPAL.analytics != "undefined"){
+
+                        PAYPAL.core = PAYPAL.core || {};
+
+                        var  fptiDataString = 'pgrp=main%3Amktg%3Apersonal%3A%3Ahome&page=main%3Amktg%3Apersonal%3A%3Ahome%3A%3A%3A2616-885-1623-2468-2470&qual=&tmpl=home.dust&pgst=Unknown&lgin=out&vers=&calc=adb0f5be74824&rsta=en_GB&pgtf=&s=ci&ccpg=gb&csci=198e9cfc635042aa9d9c164c325cea72&goal=&fltp=&flnm=&erpg=&erfd=&eccd=&cust=&acnt=&aver=&rstr=&pfid=&bztp=&mbtp=&pxpguid=f6753aee14d0a1040dd72121fea75b14&xe=1138%2C453%2C806%2C1100%2C1101&xt=2616%2C885%2C1623%2C2468%2C2470&pgld=Unknown&bzsr=main&bchn=mktg&pgsf=personal&shir=main_mktg_personal_&pros=&ptnr=&lgcook=0';
+
+                        
+                        if (typeof ga !== 'undefined' && ga !== null) {
+                            ga(function(tracker) {
+                              var gaClientId = tracker.get('clientId');
+                              if (gaClientId) {
+                                fptiDataString += "&gacook=" + gaClientId;
+                              }
+                              callFpti(fptiDataString);
+                            });
+                        }
+                        else {
+                            callFpti(fptiDataString);
+                        }
+					}
+				}());
+			</script>
+			<noscript><img src="https://t.paypal.com/ts?nojs=1&pgrp=main%3Amktg%3Apersonal%3A%3Ahome&page=main%3Amktg%3Apersonal%3A%3Ahome%3A%3A%3A2616-885-1623-2468-2470&qual=&tmpl=home.dust&pgst=Unknown&lgin=out&vers=&calc=adb0f5be74824&rsta=en_GB&pgtf=&s=ci&ccpg=gb&csci=198e9cfc635042aa9d9c164c325cea72&goal=&fltp=&flnm=&erpg=&erfd=&eccd=&cust=&acnt=&aver=&rstr=&pfid=&bztp=&mbtp=&pxpguid=f6753aee14d0a1040dd72121fea75b14&xe=1138%2C453%2C806%2C1100%2C1101&xt=2616%2C885%2C1623%2C2468%2C2470&pgld=Unknown&bzsr=main&bchn=mktg&pgsf=personal&shir=main_mktg_personal_&pros=&ptnr=&lgcook=0" alt="" height="1" width="1" border="0"></noscript>
+		
+	
+
+
+        
+        
+    
+
+
+        
+        
+<script>
+    $(document).ready(function(){
+        if(window.console || "console" in window) {
+            console.log("%c WARNING!!!", "color:#FF8F1C; font-size:40px;");
+            console.log("%c This browser feature is for developers only. Please do not copy-paste any code or run any scripts here. It may cause your PayPal account to be compromised.", "color:#003087; font-size:12px;");
+            console.log("%c For more information, http://en.wikipedia.org/wiki/Self-XSS", "color:#003087; font-size:12px;");
+        }
+    });
+</script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
