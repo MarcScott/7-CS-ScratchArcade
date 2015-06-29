@@ -13,15 +13,15 @@
     </div>
 </div>
 #+END_HTML
-* [[file:pages/1_Lesson.html][Week 1 - Staying Safe Online]]
+* [[file:pages/1_Lesson.html][Week 1 - Missile Attack]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:pages/2_Lesson.html][Week 2 - Hackers, Crackers and Malware]]
+* [[file:pages/2_Lesson.html][Week 2 - TBD]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
-* [[file:pages/3_Lesson.html][Week 3 - Your Digital Footprint]]
+* [[file:pages/3_Lesson.html][Week 3 - TBD]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
